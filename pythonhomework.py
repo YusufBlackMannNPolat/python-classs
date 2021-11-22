@@ -3,7 +3,7 @@
 # - Write comments that label each section of your program.
 # - For each thing your program does, write at least one line of output that explains what your program did."
 
-#Bu program kişiden input komudu ile girdiler alıp kişinin isteğine göre ondalık veya normal sayılar ile 4 işlem yapmaktadır.
+#This program takes inputs from the person with the input command and performs 4 operations with decimal or normal numbers according to the person's request.
 
 print("Hello, Welcome my little mat program")
 name = input("Lets start. What's your name")
@@ -43,7 +43,7 @@ else:
 
 
 
-
+print("we are dealing with normal numbers")
 sayi1 = int(input("give me the first number you want"))
 sayi2 = int(input("give me the second number you want"))
 calculatenumber = int(input("what do you want to do with these numbers " + name + "\nToplama için 1\nÇıkartma için 2\nBölme için 3\nÇarpma için 4 write"))
