@@ -12,7 +12,7 @@ işlem = int(input("You want to deal with decimal numbers?\n1.Yes\n2.No"))
 if işlem == 1:
     ondaliksayi1 = float(input("give me the first decimal number you want"))
     ondaliksayi2 = float(input("give me the second decimal number you want"))
-    ondalikcalcnumber = int(input("what do you want to do with these numbers " + name + "\nToplama için 1\nÇıkartma için 2\nBölme için 3\nÇarpma için 4 write"))
+    ondalikcalcnumber = int(input("what do you want to do with these numbers " + name.title() + "\nToplama için 1\nÇıkartma için 2\nBölme için 3\nÇarpma için 4 write"))
     if ondalikcalcnumber == 1:
         print(ondaliksayi1 + ondaliksayi2)
         print("Thanks for the using my code")
@@ -46,7 +46,7 @@ else:
 print("we are dealing with normal numbers")
 sayi1 = int(input("give me the first number you want"))
 sayi2 = int(input("give me the second number you want"))
-calculatenumber = int(input("what do you want to do with these numbers " + name + "\nToplama için 1\nÇıkartma için 2\nBölme için 3\nÇarpma için 4 write"))
+calculatenumber = int(input("what do you want to do with these numbers " + name.title() + "\nToplama için 1\nÇıkartma için 2\nBölme için 3\nÇarpma için 4 write"))
 
 if calculatenumber == 1:
     print(sayi1 + sayi2)
