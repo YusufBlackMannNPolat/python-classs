@@ -222,3 +222,13 @@ def get_number_of_words(sentence):
 message = "The world is an amazing place!"
 lenght = get_number_of_words(message)
 print(lenght)
+
+isimler = "bedir", "yusuf", "jonas"
+
+def ad_ad(isimler):
+    for i in isimler:
+        print(f"You are an amazing person {isimler}!")
+        print(f"We are appriciating your existence {isimler}")
+        print(f"Please spend more time with us {isimler}")
+    
+ad_ad(isimler[2])
